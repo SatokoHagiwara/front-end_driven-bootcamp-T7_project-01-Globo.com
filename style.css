@@ -1,3 +1,9 @@
+body {
+  font-family: "Encode Sans", sans-serif;
+}
+a {
+  text-decoration: none;
+}
 .logo-container {
   align-items: center;
   display: flex;
@@ -7,4 +13,51 @@
 .logo-image {
   height: 36px;
   width: 171px;
+}
+.menu-container {
+  align-items: center;
+  border-bottom: 1px solid #f0ebeb;
+  border-top: 1px solid #f0ebeb;
+  display: flex;
+  height: 40px;
+  justify-content: space-around;
+}
+.menu-container a {
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 24px;
+}
+.menu-container a:first-child {
+  color: #c3170c;
+}
+.menu-container a:nth-child(2) {
+  color: #1e4b9b;
+}
+.menu-container a:nth-child(3) {
+  color: #006766;
+}
+.menu-container a:nth-child(4) {
+  color: #07aa47;
+}
+.menu-container a:nth-child(5) {
+  color: #e3662b;
+}
+.menu-container a:nth-child(6) {
+  color: #fb0735;
+}
+.menu-container a:nth-child(7) {
+  color: #ff75bb;
+}
+.menu-container a:nth-child(8) {
+  color: #ec7d00;
+}
+.menu-container a:nth-child(9) {
+  color: #323333;
+}
+.menu-container a:last-child {
+  color: #a81d83;
+}
+.menu-container a:hover {
+  filter: brightness(145%);
 }
